@@ -135,14 +135,16 @@ main h2 {
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 7em 7em;
+    padding: 4em 7em;
+    /* border: 1px solid black; */
 }
 
 .quote em {
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
+    /* border: 1px solid black; */
 }
 
 .quote p {
@@ -150,5 +152,63 @@ main h2 {
     font-size: 24px;
     color: #1F2937;
     align-self: flex-end;
+    /* border: 1px solid black; */
 
 }
+
+.banner {
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    padding: 2.4em 7em;
+    gap: 5em;
+    /* border: 1px solid black; */
+}
+
+.banner h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+}
+
+.banner p {
+    color: #E5E7EB;
+    /* border: 1px solid black; */
+}
+
+.sign-up {
+    border: 2px solid white;
+    flex-direction: row;
+}
+
+.banner .left {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.banner .right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 4em 7em;
+    
+}
+
+.footer p {
+    color: #F9FAF8;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
